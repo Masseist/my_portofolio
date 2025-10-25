@@ -1,6 +1,6 @@
 # 🌟 Portofolio Saya
 
-Halo! Saya [Nama Kamu] 👋  
+Halo! Saya Almas Zein Saputra 👋  
 Ini adalah repository untuk website portofolio pribadi saya yang dibangun menggunakan **HTML, TailwindCSS, dan JavaScript**.
 
 ## 🔗 Demo
@@ -17,5 +17,5 @@ Ini adalah repository untuk website portofolio pribadi saya yang dibangun menggu
 - JavaScript
 
 ## 📬 Kontak
-📧 emailkamu@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/username)
+📧 almaszein7@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/almas-zein-saputra-a29541308)
