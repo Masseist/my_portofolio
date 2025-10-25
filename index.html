@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al'mas Zein Saputra - Frontend & UI/UX Portofolio</title>
+    <link rel="icon" type="image/x-icon" href="Assets/logoo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Custom styles for the specified font */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa; /* Light neutral gray background */
+        }
+        /* Custom blue color for primary elements */
+        .text-primary { color: #3b82f6; /* Blue-500 */ }
+        .bg-primary { background-color: #3b82f6; }
+        .border-primary { border-color: #3b82f6; }
+        .hover\:bg-primary-dark:hover { background-color: #2563eb; /* Blue-600 */ }
+
+        /* Smooth Scroll behavior added via class="scroll-smooth" in <html> */
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <nav class="sticky top-0 z-50 bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+
+
+                <div class="flex items-center space-x-2 flex-shrink-0">
+                    <img class="h-10 w-10 md:h-12 md:w-12" src="Assets/logoo.png" alt="Logo">
+                    <a href="#home" class="text-lg font-bold text-gray-900 transition duration-300 hover:text-primary leading-none">
+                        Portofolio<span class="block text-xs font-medium text-gray-600">Almas Zein Saputra</span>
+                    </a>
+                </div>
+
+                <div class="hidden md:flex md:space-x-8 items-center">
+                    <a href="#home" class="text-gray-600 hover:text-primary transition duration-300 font-medium">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-primary transition duration-300 font-medium">About</a>
+                    <a href="#projects" class="text-gray-600 hover:text-primary transition duration-300 font-medium">Project</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-primary transition duration-300 font-medium">Testimonials</a>
+                    <a href="#contact" class="text-gray-600 hover:text-primary transition duration-300 font-medium">Contact</a>
+                    
+                    <a href="https://www.linkedin.com/in/almas-zein-saputra-a29541308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="px-5 py-2 text-sm font-semibold text-white bg-black rounded-lg hover:bg-primary-dark transition duration-300 shadow-lg transform hover:scale-105">
+                        Hire Me
+                    </a>
+                </div>
+
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-primary focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        </nav>
+
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-8">
+
+        <section id="home" class="pb-12 md:pb-12">
+            <div class="grid md:grid-cols-12 gap-8 items-center">
+                
+                <div class="md:col-span-7">
+                    <p class="inline-block px-3 py-1 text-xs font-medium text-green-700 bg-green-100 rounded-full tracking-wider animate-pulse mb-6">
+                        Available for Freelance
+                    </p>
+                    <p class="text-base pl-24 text-primary font-semibold ">
+                        Hello, I'm
+                    </p>
+                <div class="flex items-center gap-4 text-4xl md:text-5xl lg:text-4xl font-extrabold text-gray-900 leading-tight mb-4">
+                        <img class="h-20 w-20" src="Assets/logoo.png" alt="Workflow">
+                        <h1>Almas Zein Saputra <span class="block text-base md:text-base font-medium text-gray-600">
+                        Frontend & UI/UX Design System</span>
+                        </h1>
+                </div>
+                
+                    
+                    <p class="text-sm text-gray-600 mb-6 max-w-xl">
+                        Di persimpangan <strong>Code. Craft. Consistency</strong> itulah tempat saya belajar. Saya adalah Beginner di dunia Frontend, UI/IX, dan Design System, didorong oleh satu filosofi: "<strong>Koding adalah seni, dan user experience adalah jiwanya</strong>" Saya bertekad untuk memastikan bahwa setiap baris kode yang elegan juga menghasilkan interaksi yang paling mulus. Karena sebuah aplikasi harus menjadi perpanjangan intuisi manusia, bukan sekedar agregat teknologi.
+                    </p>
+                    
+                    <div class="flex space-x-4">
+                        <a href="#projects" class="px-6 py-3 font-semibold text-white bg-primary rounded-lg hover:bg-primary-dark transition duration-300 transform hover:scale-105 shadow-xl">
+                            Lihat Portofolio &gt;
+                        </a>
+                        <a href="https://github.com/masseist" target="_blank" class="px-6 py-3 font-semibold text-primary border border-primary rounded-lg hover:bg-primary/10 transition duration-300 transform hover:scale-105">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 inline-block mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 0C4.477 0 0 4.477 0 10c0 4.418 2.864 8.169 6.83 9.493.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.795-2.782.603-3.37-1.34-3.37-1.34-.454-1.157-1.107-1.464-1.107-1.464-.905-.618.069-.606.069-.606 1.003.07 1.531 1.03 1.531 1.03.892 1.53 2.341 1.087 2.91.83.091-.645.35-1.087.636-1.338-2.22-.253-4.555-1.119-4.555-4.942 0-1.09.39-1.984 1.03-2.687-.104-.253-.448-1.27.098-2.65 0 0 .84-.268 2.75 1.026A9.564 9.564 0 0110 4.33a9.564 9.564 0 012.55-.345c1.91-1.294 2.75-1.026 2.75-1.026.546 1.38.202 2.397.098 2.65.64.703 1.03 1.598 1.03 2.687 0 3.832-2.335 4.686-4.567 4.935.359.309.678.92.678 1.855 0 1.338-.012 2.418-.012 2.744 0 .267.18.58.688.484C17.137 18.17 20 14.418 20 10c0-5.523-4.477-10-10-10z" clip-rule="evenodd"/></svg>
+                            Lihat Github
+                        </a>
+                    </div>
+                    <p class="text-sm font-semibold text-gray-600 mt-6 max-w-xl">
+                        Do you know ?
+                    </p>
+                    <p class="text-xs text-gray-600 mt-2 max-w-sm">
+                        Portofolio ini adalah wadah bagi karya-karya awal saya yang jujur saja tempat saya bereksperimen, membuat kesalahan, dan yang terpenting, belajar
+                    </p>
+                </div>
+
+                <div class="md:col-span-5 flex justify-center md:justify-end">
+                    <div class="w-64 h-72 md:w-80 md:h-96 bg-gray-300 rounded-xl flex items-center justify-center shadow-xl border-4 border-white overflow-hidden transform transition duration-500 hover:scale-105 rotate-3 hover:rotate-0">
+                        <img src="Assets/Frame.jpg" alt="Foto Almas Zein Saputra" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-gray-300 my-8 md:my-8">
+
+        <section id="about" class="pb-3 md:pb-3">
+            <h2 class="text-3xl font-bold text-gray-900 mb-12">
+                <span class="text-primary mr-2">/</span>About Me
+            </h2>
+            
+            <div class="grid md:grid-cols-12 gap-12 items-start">
+                
+                <div class="md:col-span-5 flex flex-col items-center">
+                    <div class="w-full relative z-0 max-w-sm h-64 bg-gray-200 rounded-xl shadow-xl flex items-center justify-center transform transition duration-500 hover:rotate-3 ">
+                        <img src="Assets/profil photo.png" alt="Profil Photo" class="rounded-xl">
+                    </div>
+                    
+
+                    <div class="grid grid-cols-3 gap-4 text-center w-full max-w-sm mt-11">
+                        <div>
+                            <p class="text-3xl font-bold text-primary">3</p>
+                            <p class="text-sm font-medium text-gray-600">Website</p>
+                        </div>
+                        <div>
+                            <p class="text-3xl font-bold text-primary">12</p>
+                            <p class="text-sm font-medium text-gray-600">Landing Page</p>
+                        </div>
+                        <div>
+                            <p class="text-3xl font-bold text-primary">22</p>
+                            <p class="text-sm font-medium text-gray-600">Design</p>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="flex items-center space-x-3 justify-center w-full max-w-sm mt-6 px-6 py-3 bg-primary rounded-lg hover:bg-primary-dark transition duration-300 transform hover:scale-105 shadow-xl">
+                        <img src="Assets/Vector collab.png" alt="Collaborate Icon" class="w-4 h-4 my-1">
+                        <span class="font-semibold text-white">Ayo Berkolaborasi</span>
+                    </a>
+                    <div class="flex space-x-3 mt-4">
+                        <a href="https://drive.google.com/file/d/1pBalYjkwS4e9fXo36zPrEUIGp28rEqKM/view?usp=sharing" target="_blank" class="px-6 py-3 font-semibold text-white bg-primary rounded-lg hover:bg-primary-dark transition duration-300 transform hover:scale-105 shadow-xl">
+                            Curriculum Vitae &gt;
+                        </a>
+                        <a href="https://github.com/masseist" target="_blank" class="px-5 py-3 font-semibold text-primary border border-primary rounded-lg hover:bg-primary/10 transition duration-300 transform hover:scale-105 inline-flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 inline-block mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 0C4.477 0 0 4.477 0 10c0 4.418 2.864 8.169 6.83 9.493.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.795-2.782.603-3.37-1.34-3.37-1.34-.454-1.157-1.107-1.464-1.107-1.464-.905-.618.069-.606.069-.606 1.003.07 1.531 1.03 1.531 1.03.892 1.53 2.341 1.087 2.91.83.091-.645.35-1.087.636-1.338-2.22-.253-4.555-1.119-4.555-4.942 0-1.09.39-1.984 1.03-2.687-.104-.253-.448-1.27.098-2.65 0 0 .84-.268 2.75 1.026A9.564 9.564 0 0110 4.33a9.564 9.564 0 012.55-.345c1.91-1.294 2.75-1.026 2.75-1.026.546 1.38.202 2.397.098 2.65.64.703 1.03 1.598 1.03 2.687 0 3.832-2.335 4.686-4.567 4.935.359.309.678.92.678 1.855 0 1.338-.012 2.418-.012 2.744 0 .267.18.58.688.484C17.137 18.17 20 14.418 20 10c0-5.523-4.477-10-10-10z" clip-rule="evenodd"/></svg>
+                            Lihat Github
+                        </a>
+                    </div>
+                </div>
+
+                <div class="md:col-span-7">
+                    <p class="text-2xl font-semibold text-gray-600 mb-6">Membangun dengan niat & kreativitas</p>
+                    
+                    <div class="flex space-x-3 border-b border-gray-200 mb-6">
+                        <button id="tab-profil" data-tab="profil" class="tab-button px-4 py-2 text-sm font-semibold border-b-2 border-primary text-primary transition duration-300">Profil</button>
+                        <button id="tab-keahlian" data-tab="keahlian" class="tab-button px-4 py-2 text-sm font-semibold border-b-2 border-transparent text-gray-600 hover:border-gray-300 transition duration-300">Keahlian</button>
+                        <button id="tab-sertifikasi" data-tab="sertifikasi" class="tab-button px-4 py-2 text-sm font-semibold border-b-2 border-transparent text-gray-600 hover:border-gray-300 transition duration-300">Sertifikasi</button>
+                    </div>
+
+                    <div id="content-profil" class="tab-content space-y-4">
+                        <p class="text-base text-gray-700">
+                            Saya adalah Alkemis Digital, pemula yang sedang menempa masa depan di bengkel kreatif antara kawat-kawat logika dan kanvas visual. Haus akan ilmu, saya berdiri tepat di persimpangan Frontend Development, Desain UI/UX, dan Design System.
+                        </p>
+                        <p class="text-base text-gray-700">
+                            Bagi saya, kode yang indah adalah tarian yang anggun yang harus selaras sempurna dengan pengalaman pengguna yang mulus dan mempersona. Saya adalah mahasiswa teknik informatika yang kuliah sambil cari jati diri, suka hal-hal yang simpel dan ringkas dan Penuh tekad walaupun cuma sesaat.
+                        </p>
+                    </div>
+
+                    <div id="content-keahlian" class="tab-content hidden space-y-4">
+                        <h4 class="text-lg font-semibold text-gray-800">Teknologi & Tools</h4>
+                        <ul class="list-disc list-inside text-base text-gray-700 ml-4 space-y-1">
+                            <li>Frontend: HTML5, Tailwind CSS, TypeScript, React (Basic)</li>
+                            <li>Backend (Basic): PHP, MySQL</li>
+                            <li>Design: Figma, Adobe XD (UI/UX Design System)</li>
+                            <li>Version Control: Git & GitHub</li>
+                        </ul>
+                    </div>
+
+                    <div id="content-sertifikasi" class="tab-content hidden space-y-4">
+                        <p class="text-base text-gray-700">
+                            Saat ini, saya sedang aktif mengikuti beberapa program sertifikasi dan kursus online untuk memperdalam keahlian di bidang:
+                        </p>
+                        <ul class="list-disc list-inside text-base text-gray-700 ml-4 space-y-1">
+                            <li>Sertifikasi 1: React JS for Beginners (Dicoding)</li>
+                            <li>Sertifikasi 2: Advanced UI/UX Design System (Platform X)</li>
+                            <li>Sertifikasi 3: Backend Development with Node.js (Pending)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <p class="text-base font-semibold text-gray-700 mb-4">Recent Post</p>
+                        <div class="flex flex-col space-y-2 ml-2 text-sm">
+                            <div class="inline-flex space-x-2 transition duration-400 transform hover:scale-[1.01]">
+                                <img src="Assets/Vector.png" alt="Icon" class="w-4 h-4 my-1">
+                                <a href="#projects" class="font-medium text-gray-700">
+                                    Portofolio Website
+                                    <span class="text-xs ml-2 text-primary font-light">TypeScript - 23/10/2025</span>
+                                </a>
+                            </div>
+                            <div class="flex flex-row space-x-2 transition duration-400 transform hover:scale-[1.01]">
+                                <img src="Assets/Vector.png" alt="Icon" class="w-4 h-4 my-1">
+                                <a href="#projects" class="font-medium text-gray-700">
+                                    Web E-Commerce Urban Attire
+                                    <span class="text-xs ml-2 text-primary font-light">TypeScript, PHP - 23/10/2025</span>
+                                </a>
+                            </div>
+                            <div class="flex flex-row space-x-2 transition duration-400 transform hover:scale-[1.01]">
+                                <img src="Assets/Vector.png" alt="Icon" class="w-4 h-4 my-1">
+                                <a href="#projects" class="font-medium text-gray-700">
+                                    Website Judol (Demo Project)
+                                    <span class="text-xs ml-2 text-primary font-light">TypeScript - 23/10/2025</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <hr class="border-gray-300 my-16 md:my-8">
+
+        <section id="projects" class="pb-16 md:pb-24">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4">
+                <span class="text-primary mr-2">/</span>Project
+            </h2>
+            <p class="text-xl font-semibold text-gray-600 mb-2">Preview singkat, jangan dihujat</p>
+            <p class="text-sm font-medium text-gray-600 mb-4">Liat boleh, ambil jangan</p>
+
+            <div class="flex space-x-4 mb-10">
+                <button data-filter="web" class="filter-button px-4 py-2 text-sm font-semibold text-white bg-primary rounded-lg shadow-md hover:bg-primary-dark transition duration-300">Web Project</button>
+                <button data-filter="mobile" class="filter-button px-4 py-2 text-sm font-medium text-gray-600 border border-gray-300 rounded-lg hover:bg-gray-100 transition duration-300">Mobile Apps</button>
+                <button data-filter="design" class="filter-button px-4 py-2 text-sm font-medium text-gray-600 border border-gray-300 rounded-lg hover:bg-gray-100 transition duration-300">Design Work</button>
+            </div>
+
+            <div id="project-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <div class="project-card web active bg-white rounded-xl shadow-xl overflow-hidden group transform hover:scale-[1.02] transition duration-300">
+                    <div class="h-40 bg-gray-200 flex items-center justify-center">
+                        <span class="text-xl text-gray-600">Portofolio Web</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-base font-semibold text-gray-900 mb-1">Portofolio Website</h3>
+                        <p class="text-xs text-gray-500 mb-2">React - Tailwind | 10/10/2025</p>
+                        <a href="#" class="inline-flex items-center text-sm font-semibold text-primary hover:text-primary-dark transition duration-300">
+                            Lihat Detail
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition duration-300" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card web active bg-white rounded-xl shadow-xl overflow-hidden group transform hover:scale-[1.02] transition duration-300">
+                    <div class="h-40 bg-gray-200 flex items-center justify-center">
+                        <span class="text-xl text-gray-600">E-Commerce Urban Attire</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-base font-semibold text-gray-900 mb-1">Web E-Commerce Urban Attire</h3>
+                        <p class="text-xs text-gray-500 mb-2">TypeScript, PHP - 23/10/2025</p>
+                        <a href="#" class="inline-flex items-center text-sm font-semibold text-primary hover:text-primary-dark transition duration-300">
+                            Lihat Detail
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition duration-300" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card mobile bg-white rounded-xl shadow-xl overflow-hidden group transform hover:scale-[1.02] transition duration-300">
+                    <div class="h-40 bg-gray-200 flex items-center justify-center">
+                        <span class="text-xl text-gray-600">Mobile App Design</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-base font-semibold text-gray-900 mb-1">Money Tracker Dashboard</h3>
+                        <p class="text-xs text-gray-500 mb-2">React Native - Figma | 02/03/25</p>
+                        <a href="#" class="inline-flex items-center text-sm font-semibold text-primary hover:text-primary-dark transition duration-300">
+                            Lihat Detail
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 w-4 h-4 transform group-hover:translate-x-1 transition duration-300" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-gray-300 my-8 md:my-8">
+
+        <section id="testimonials" class="pb-8 md:pb-4">
+                <h2 class="text-3xl font-bold text-gray-900">
+                    <span class="text-primary mr-2">/</span>Testimonial
+                </h2>
+
+            <div class="flex justify-between items-end mt-6 mb-4">
+                <p class="text-lg text-gray-600 mb-8">review singkat, padat, siapa cepat dia dapat</p>
+                <div class="md:col-span-8 relative">
+                    <div class="absolute top-0 right-0 hidden md:flex space-x-3 -mt-16">
+                        <button class="inline-flex px-6 py-1 justify-center text-sm font-semibold text-white bg-gray-900 rounded-lg hover:bg-gray-700 transition duration-300 shadow-md">
+                            <img src="Assets/ref.png" alt="Refresh Icon" class="w-5 h-5 mr-1">
+                            Refresh
+                        </button>
+                        <button class="inline-flex px-4 py-1 text-sm font-semibold text-white bg-gray-900 rounded-lg hover:bg-gray-700 transition duration-300 shadow-md">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd"/></svg>
+                            Tambah
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 md:p-12 rounded-xl shadow-xl border border-gray-100">
+                <div class="grid md:grid-cols-12 gap-8 items-start">
+                    
+                    <div class="md:col-span-4 flex flex-col items-start md:items-start text-left">
+                        <div class="w-600 h-40 overflow-hidden rounded-xl mb-4 bg-gray-300 border-2 border-white shadow-md">
+                            <img src="Assets/testi.jpg" alt="Foto Orang Beneran" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-semibold text-gray-900">Orang Beneran</h4>
+                        <p class="text-sm font-base text-gray-600">CEO Dracin</p>
+                    </div>
+
+                    <div class="md:col-span-8 relative">   
+                        <p class="text-sm italic text-gray-700 leading-relaxed pt-4">
+                            "Bekerja dengan Mas Al adalah pengalaman yang luar biasa, Ia bukan sekadar desainer yang menghasilkan wireframe cantik: Ia adalah pemecah masalah strategis. Dalam proyek rebranding kami, Mas Al mampu mengidentifikasi bottleneck pada user journey kami yang paling krusial. Desain yang ia hasilkan bukan hanya estetik tapi juga berbasis data dan langsung meningkatkan konversi di halaman checkout sebesar 15%".
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="mt-8 flex justify-between items-center px-2">
+                <div class="flex space-x-2">
+                    <span class="w-2 h-2 bg-gray-900 rounded-full"></span>
+                    <span class="w-2 h-2 bg-gray-400 rounded-full"></span>
+                    <span class="w-2 h-2 bg-gray-400 rounded-full"></span>
+                </div>
+                
+                <div class="flex space-x-4">
+                    <button class="text-gray-900 hover:text-primary transition duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" /></svg>
+                    </button>
+                    <button class="text-gray-900 hover:text-primary transition duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-gray-300 my-8 md:my-8">
+
+        <section id="contact" class="pb-8 md:pb-8">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">
+                <span class="text-primary mr-2">/</span>Contact Me
+            </h2>
+            <p class="inline-block px-3 py-1 text-xs font-medium text-green-700 bg-green-100 rounded-full tracking-wider animate-pulse mb-6">
+                        Available for Freelance
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-3xl font-semibold text-gray-800 mb-4">Butuh Respon Cepat?</h3>
+                    <p class="text-base text-gray-600 mb-8">Saya bersemangat untuk membantu Anda membangun produk digital yang elegan dan fungsional. Mari kita diskusikan proyek Anda!</p>
+
+                    <div class="flex items-center space-x-3 mb-2 p-3 bg-white rounded-lg shadow-sm border border-gray-100">
+                        <img src="Assets/mail.png" class="w-6 h-6" alt="Email Icon">
+                        <p class="text-sm text-gray-700 font-medium">almaszein7@gmail.com</p>
+                    </div>
+
+                    <a href="https://wa.me/6281280098815?text=Halo%20Almas%2C%20saya%20melihat%20portofolio%20Anda.%20Saya%20tertarik%20untuk%20berkolaborasi%2Fmenggunakan%20jasa%20Anda." target="_blank" class="mt-6 flex items-center space-x-3 p-3 bg-white rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition duration-300">
+                        <img src="Assets/wawa.png" class="w-6 h-6" alt="WhatsApp Icon">
+                        <span class="text-sm font-medium text-gray-700">Chat via WhatsApp (Respon Cepat)</span>
+                    </a>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+                    <form action="mailto:almaszein7@gmail.com" method="GET" class="space-y-4">
+                        <div>
+                            <label for="nama" class="block text-base font-medium text-gray-700">Nama</label>
+                            <input type="text" id="nama" name="nama" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-primary focus:border-primary transition duration-200" placeholder="Nama Anda" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-base font-medium text-gray-700">Email</label>
+                            <input type="email" id="email" name="email" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-primary focus:border-primary transition duration-200" placeholder="Email Anda" required>
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-base font-medium text-gray-700">Subject</label>
+                            <input type="text" id="subject" name="subject" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-primary focus:border-primary transition duration-200" placeholder="Subjek Pesan" required>
+                        </div>
+                        <div>
+                            <label for="deskripsi" class="block text-base font-medium text-gray-700">Deskripsi Singkat</label>
+                            <textarea id="deskripsi" name="deskripsi" rows="4" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-primary focus:border-primary transition duration-200" placeholder="Jelaskan kebutuhan Anda..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full px-4 py-3 font-semibold text-white bg-primary rounded-lg hover:bg-primary-dark transition duration-300 transform hover:scale-[1.01] shadow-md">
+                            Kirim Pesan
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm text-gray-400 mb-4 md:mb-0">
+                    &copy; 2025 @almaszein — All rights reserved.
+                </p>
+
+                <div class="flex space-x-6">
+                    <a href="https://github.com/masseist" target="_blank" class="text-gray-400 hover:text-white transition duration-300 transform hover:scale-110" aria-label="GitHub">
+                        <img src="Assets/github.png" alt="GitHub Icon" class="w-7 h-7">
+                    </a>
+                    <a href="https://www.linkedin.com/in/almas-zein-saputra-a29541308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-gray-400 hover:text-white transition duration-300 transform hover:scale-110" aria-label="LinkedIn">
+                        <img src="Assets/linkedin.png" alt="LinkedIn Icon" class="w-7 h-7">
+                    </a>
+                    <a href="https://www.instagram.com/masszein_?igsh=ZXczbmx1aTJ5NXFz" target="_blank" class="text-gray-400 hover:text-white transition duration-300 transform hover:scale-110" aria-label="Instagram">
+                        <img src="Assets/intagram.png" alt="Instagram Icon" class="w-7 h-7">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
