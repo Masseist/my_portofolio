@@ -4,7 +4,7 @@ Halo! Saya Almas Zein Saputra 👋
 Ini adalah repository untuk website portofolio pribadi saya yang dibangun menggunakan **HTML, TailwindCSS, dan JavaScript**.
 
 ## 🔗 Demo
-👉 [Lihat versi live di sini](https://username.github.io/my-portfolio/)
+👉 [Lihat versi live di sini](https://masseist.github.io/my-portfolio/)
 
 ## 🧠 Fitur
 - Tampilan responsif (mobile friendly)
